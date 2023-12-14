@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a46dcad-5842-4acc-bb6a-539627060d6c" name="更改" comment="image" />
+    <list default="true" id="2a46dcad-5842-4acc-bb6a-539627060d6c" name="更改" comment="photo">
+      <change beforePath="$PROJECT_DIR$/../IT_Course-NJAU/.idea/IT_Course-NJAU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IT_Course-NJAU/.idea/IT_Course-NJAU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IT_Course-NJAU/memory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../IT_Course-NJAU/memory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IT_Course-NJAU/voice_express.py" beforeDir="false" afterPath="$PROJECT_DIR$/../IT_Course-NJAU/voice_express.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +43,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "linqichenggg"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;linqichenggg&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -51,9 +60,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ZWCuzX9Oj7mrnA13SFbB7DfXfy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,11 +71,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.game.executor": "Debug",
+    "Python.game.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.py.executor": "Run",
+    "Python.voice_express.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/linqicheng/PycharmProjects/game",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,12 +103,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../IT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../IT/game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,6 +134,10 @@
       <option name="presentableId" value="Default" />
       <updated>1702528674348</updated>
       <workItem from="1702528675489" duration="5168000" />
+      <workItem from="1702539163533" duration="169000" />
+      <workItem from="1702539537004" duration="153000" />
+      <workItem from="1702539697678" duration="139000" />
+      <workItem from="1702539941865" duration="4236000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -163,7 +179,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702533816945</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="photo">
+      <option name="closed" value="true" />
+      <created>1702539207731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702539207731</updated>
+    </task>
+    <task id="LOCAL-00007" summary="photo">
+      <option name="closed" value="true" />
+      <created>1702539252347</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702539252347</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,10 +217,14 @@
     <MESSAGE value="2" />
     <MESSAGE value="bottom" />
     <MESSAGE value="image" />
-    <option name="LAST_COMMIT_MESSAGE" value="image" />
+    <MESSAGE value="photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/game$game.coverage" NAME="game 覆盖结果" MODIFIED="1702533483114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_py$game.coverage" NAME="game 覆盖结果" MODIFIED="1702552464755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_py$voice_express.coverage" NAME="voice_express 覆盖结果" MODIFIED="1702540435686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../IT_Course-NJAU" />
+    <SUITE FILE_PATH="coverage/game_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1702551509327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue" />
     <SUITE FILE_PATH="coverage/game$py.coverage" NAME="py 覆盖结果" MODIFIED="1702528955211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/vs/game" />
   </component>
 </project>
