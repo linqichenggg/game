@@ -55,8 +55,9 @@ class Player(pygame.sprite.Sprite):
 class Rock(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.transform.scale(rock_img,(23,35))
-        self.image.set_colorkey(BLACK)
+        self.image_ori = pygame.transform.scale(rock_img,(23,35))
+        self.image_ori.set_colorkey(BLACK)
+        self.image = self.image_ori.copy()
         self.rect = self.image.get_rect()
         self.radius = self.rect.width*0.9 / 2
         # pygame.draw.circle(self.image, RED, self.rect.center, self.radius)
@@ -64,14 +65,18 @@ class Rock(pygame.sprite.Sprite):
         self.rect.bottom = random.randrange(-100, -40)
         self.speedy = random.randrange(2,10)
         self.speedx = random.randrange(-3,3)
-        self.rot_degree = 5
+        # rotate
+        self.total_degree = 0
+        self.rot_degree = 3
 
 
-    # def rotate(self):
-    #     self.image = pygame.transform.rotate(self.image, self.rot_degree)
+    def rotate(self):
+        self.total_degree += self.rot_degree
+        self.total_degree = self.total_degree % 360
+        self.image = pygame.transform.rotate(self.image_ori, self.total_degree)
 
     def update(self):
-        # self.rotate()
+        self.rotate()
         self.rect.y += self.speedy
         self.rect.x += self.speedx
         if self.rect.top >HEIGHT or self.rect.left > WIDTH or self.rect.right < 0 :
