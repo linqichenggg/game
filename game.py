@@ -10,7 +10,7 @@ GREEN = (0,255,0)
 #initial
 pygame.init()
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
-pygame.display.set_caption("dingzhen")
+pygame.display.set_caption("lqc")
 clock = pygame.time.Clock()
 
 class Player(pygame.sprite.Sprite):
@@ -19,8 +19,21 @@ class Player(pygame.sprite.Sprite):
         self.image = pygame.Surface((50,40))
         self.image.fill(GREEN)
         self.rect = self.image.get_rect()
-        self.rect.x = 200
-        self.rect.y = 200
+        self.rect.centerx = WIDTH / 2
+        self.rect.bottom = HEIGHT - 5
+        self.speedx = 8
+
+    def update(self):
+        key_pressed = pygame.key.get_pressed()
+        if key_pressed[pygame.K_d]:
+            self.rect.x += self.speedx
+        if key_pressed[pygame.K_a]:
+            self.rect.x -= self.speedx
+
+        if self.rect.right > WIDTH:
+            self.rect.right = WIDTH
+        if self.rect.left < 0:
+            self.rect.left = 0
 
 all_sprites = pygame.sprite.Group()
 player = Player()
