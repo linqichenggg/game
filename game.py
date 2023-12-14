@@ -128,5 +128,5 @@ while running:
     screen.blit(background_img, (0,0))
     all_sprites.draw(screen)
     pygame.display.update()
-
+#1
 pygame.quit()
