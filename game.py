@@ -64,8 +64,14 @@ class Rock(pygame.sprite.Sprite):
         self.rect.bottom = random.randrange(-100, -40)
         self.speedy = random.randrange(2,10)
         self.speedx = random.randrange(-3,3)
+        self.rot_degree = 5
+
+
+    # def rotate(self):
+    #     self.image = pygame.transform.rotate(self.image, self.rot_degree)
 
     def update(self):
+        # self.rotate()
         self.rect.y += self.speedy
         self.rect.x += self.speedx
         if self.rect.top >HEIGHT or self.rect.left > WIDTH or self.rect.right < 0 :
@@ -128,5 +134,4 @@ while running:
     screen.blit(background_img, (0,0))
     all_sprites.draw(screen)
     pygame.display.update()
-#1
 pygame.quit()
