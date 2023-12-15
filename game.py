@@ -26,6 +26,18 @@ rock_imgs = []
 for i in range(3):
     rock_imgs.append(pygame.image.load(os.path.join("img",f"c{i}.jpg")).convert())
 
+#sound
+shoot_sound = [
+    pygame.mixer.Sound(os.path.join("sound","shoot0.wav")),
+    pygame.mixer.Sound(os.path.join("sound","shoot1.wav"))
+]
+expl_sound = [
+    pygame.mixer.Sound(os.path.join("sound","hit0.wav")),
+    pygame.mixer.Sound(os.path.join("sound","hit1.wav"))
+]
+pygame.mixer.music.load(os.path.join("sound","I Got Smoke.flac"))
+pygame.mixer.music.set_volume(0.4)
+
 #score display
 font_name = pygame.font.match_font('arial')
 def draw_text(surf, text, size, x, y):
@@ -64,6 +76,7 @@ class Player(pygame.sprite.Sprite):
         bullet = Bullet(self.rect.centerx, self.rect.top)
         all_sprites.add(bullet)
         bullets.add(bullet)
+        random.choice(shoot_sound).play()
 
 class Rock(pygame.sprite.Sprite):
     def __init__(self):
@@ -127,6 +140,7 @@ for i in range(8):
     all_sprites.add(rock)
     rocks.add(rock)
 score = 0
+pygame.mixer.music.play(-1)
 
 #loop
 running = True
@@ -145,6 +159,7 @@ while running:
     #every hit is the cigarette that collide with dingzhen
     hits = pygame.sprite.groupcollide(rocks, bullets, True, True)
     for hit in hits:
+        random.choice(expl_sound).play()
         score += hit.radius
         r = Rock()
         all_sprites.add(r)
