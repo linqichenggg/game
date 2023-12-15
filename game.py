@@ -67,13 +67,17 @@ class Rock(pygame.sprite.Sprite):
         self.speedx = random.randrange(-3,3)
         # rotate
         self.total_degree = 0
-        self.rot_degree = 3
+        self.rot_degree = random.randrange(-3,3)
 
 
     def rotate(self):
         self.total_degree += self.rot_degree
         self.total_degree = self.total_degree % 360
         self.image = pygame.transform.rotate(self.image_ori, self.total_degree)
+        #center
+        center = self.rect.center
+        self.rect = self.image.get_rect()
+        self.rect.center = center
 
     def update(self):
         self.rotate()
