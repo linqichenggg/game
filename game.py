@@ -76,8 +76,10 @@ def draw_init():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
+                return True
             elif event.type == pygame.KEYUP:
                 waiting = False
+                return False
 
 class Player(pygame.sprite.Sprite):
     def __init__(self):
@@ -177,7 +179,9 @@ show_init = True
 running = True
 while running:
     if show_init:
-        draw_init()
+        close = draw_init()
+        if close:
+            break
         show_init = False
         all_sprites = pygame.sprite.Group()
         rocks = pygame.sprite.Group()
@@ -192,7 +196,7 @@ while running:
     #input
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
+            pygame.quit()
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE:
                 player.shoot()
