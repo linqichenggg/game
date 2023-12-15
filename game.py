@@ -64,6 +64,21 @@ def draw_health(surf, hp, x, y):
     pygame.draw.rect(surf, GREEN, fill_rect)
     pygame.draw.rect(surf, WHITE, outline_rect, 2)
 
+def draw_init():
+    screen.blit(background_img, (0,0))
+    draw_text(screen , 'Welcome to the EFTC', 64, WIDTH/2, HEIGHT/4)
+    draw_text(screen, 'a -> go left ; d -> go right ; space -> attack', 20, WIDTH / 2, HEIGHT / 2)
+    draw_text(screen, 'Press any key to start', 18, WIDTH / 2, HEIGHT * 3/4)
+    pygame.display.update()
+    waiting = True
+    while waiting:
+        clock.tick(FPS)
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+            elif event.type == pygame.KEYUP:
+                waiting = False
+
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
@@ -158,8 +173,21 @@ score = 0
 pygame.mixer.music.play(-1)
 
 #loop
+show_init = True
 running = True
 while running:
+    if show_init:
+        draw_init()
+        show_init = False
+        all_sprites = pygame.sprite.Group()
+        rocks = pygame.sprite.Group()
+        bullets = pygame.sprite.Group()
+        player = Player()
+        all_sprites.add(player)
+        for i in range(8):
+            new_rock()
+        score = 0
+
     clock.tick(FPS)
     #input
     for event in pygame.event.get():
@@ -183,7 +211,7 @@ while running:
         new_rock()
         player.health -= hit.radius
         if player.health <= 0:
-            running = False
+            show_init = True
 
     #display
     screen.fill(BLACK)
@@ -192,4 +220,5 @@ while running:
     draw_text(screen, str(score), 18, WIDTH/2, 10)
     draw_health(screen, player.health, 10, 10)
     pygame.display.update()
+
 pygame.quit()
