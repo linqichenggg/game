@@ -4,15 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a46dcad-5842-4acc-bb6a-539627060d6c" name="更改" comment="home page">
-      <change afterPath="$PROJECT_DIR$/game" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/game" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/game.app/Contents/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/game.app/Contents/MacOS/game" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/game.app/Contents/Resources/icon-windowed.icns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/game.app/Contents/_CodeSignature/CodeResources" afterDir="false" />
+    <list default="true" id="2a46dcad-5842-4acc-bb6a-539627060d6c" name="更改" comment="exe">
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/img/c0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/img/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/img/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/img/dingzhen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/img/litang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/img/liubo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/sound/I Got Smoke.flac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/sound/hit0.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/sound/hit1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/sound/shoot0.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue/sound/shoot1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dzsmoke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persuading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IT_Course-NJAU/.idea/IT_Course-NJAU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IT_Course-NJAU/.idea/IT_Course-NJAU.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/game.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/game.app/Contents/MacOS/game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/game.app/Contents/Resources/icon-windowed.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/game.app/Contents/_CodeSignature/CodeResources" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,26 +85,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.game.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.py.executor": "Run",
-    "Python.voice_express.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/linqicheng/PycharmProjects/game",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.用户定义的文件类型",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.persuading.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.voice_express.executor&quot;: &quot;Run&quot;,
+    &quot;Python.webui_preprocess.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/linqicheng/PycharmProjects/game&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.用户定义的文件类型&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../IT" />
@@ -121,6 +138,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run_game" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="IT_Course-NJAU" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/NinjaOnTheWall_0.7_simono/source" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/NinjaOnTheWall_0.7_simono/source/run_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -142,7 +183,15 @@
       <workItem from="1702539537004" duration="153000" />
       <workItem from="1702539697678" duration="139000" />
       <workItem from="1702539941865" duration="6337000" />
-      <workItem from="1702554705949" duration="11860000" />
+      <workItem from="1702554705949" duration="11892000" />
+      <workItem from="1702646348171" duration="196000" />
+      <workItem from="1702646667938" duration="42000" />
+      <workItem from="1702884586648" duration="1000" />
+      <workItem from="1702885135128" duration="595000" />
+      <workItem from="1702962916026" duration="815000" />
+      <workItem from="1702964138242" duration="1374000" />
+      <workItem from="1703065722714" duration="194000" />
+      <workItem from="1703074985654" duration="4728000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -272,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702640174036</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="exe">
+      <option name="closed" value="true" />
+      <created>1702641134358</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702641134358</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,13 +362,17 @@
     <MESSAGE value="sound effect" />
     <MESSAGE value="health point" />
     <MESSAGE value="home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page" />
+    <MESSAGE value="exe" />
+    <option name="LAST_COMMIT_MESSAGE" value="exe" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/game$game.coverage" NAME="game 覆盖结果" MODIFIED="1702533483114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/game_py$game.coverage" NAME="game 覆盖结果" MODIFIED="1702640904643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_py$game.coverage" NAME="game 覆盖结果" MODIFIED="1703076947153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_py$run_game.coverage" NAME="run_game 覆盖结果" MODIFIED="1702963989371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/NinjaOnTheWall_0.7_simono/source" />
     <SUITE FILE_PATH="coverage/game_py$voice_express.coverage" NAME="voice_express 覆盖结果" MODIFIED="1702540435686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../IT_Course-NJAU" />
     <SUITE FILE_PATH="coverage/game_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1702551509327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue" />
     <SUITE FILE_PATH="coverage/game$py.coverage" NAME="py 覆盖结果" MODIFIED="1702528955211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/vs/game" />
+    <SUITE FILE_PATH="coverage/game_py$persuading.coverage" NAME="persuading 覆盖结果" MODIFIED="1703079774960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_py$webui_preprocess.coverage" NAME="webui_preprocess 覆盖结果" MODIFIED="1702646512343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
