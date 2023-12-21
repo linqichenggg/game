@@ -1,6 +1,30 @@
 import pygame
 import os
 
+def game_Init():
+    WIDTH = 1000
+    HEIGHT = 800
+    FPS = 60
+
+    WHITE = (255, 255, 255)
+    GREEN = (0, 255, 0)
+    RED = (255, 0, 0)
+    YELLOW = (255, 255, 0)
+    BLACK = (0, 0, 0)
+
+    # initialize
+    pygame.init()
+    screen = pygame.display.set_mode((1000, 800))
+    # title
+    pygame.display.set_caption("Persuading")
+    clock = pygame.time.Clock()
+
+    # img
+    # background
+    background_img = pygame.image.load(os.path.join("img", "litang.jpg")).convert()
+    # dingzhen
+    actor_img = pygame.image.load(os.path.join("img", "dzsmoke.jpg")).convert()
+
 WIDTH = 1000
 HEIGHT = 800
 FPS = 60
@@ -95,44 +119,44 @@ class Input(pygame.sprite.Sprite):
     def clear_text(self):
         self.text = ""
 
-#sprite group
-all_sprites = pygame.sprite.Group()
-text = Text()
-dz = Dingzhen()
-all_sprites.add(text)
-all_sprites.add(dz)
-
-# Add the input box to the sprite group
-input_box = Input()
-all_sprites.add(input_box)
-
-running = True
-#loop
-while running:
-    clock.tick(FPS)
-    #input
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-        elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_RETURN:
-                text.result = input_box.text  # 复制输入内容到 Text 实例
-                input_box.clear_text()  # 清空输入框
-            elif input_box.active:
-                if event.key == pygame.K_BACKSPACE:
-                    input_box.backspace()
-                else:
-                    input_box.add_character(event.unicode)
-
-    #update
-    #Execute the update function for each object in this group
-    all_sprites.update()
-
-    #display
-    screen.fill(BLACK)
-    screen.blit(background_img, (0,0))
-    all_sprites.draw(screen)
-    #refresh
-    pygame.display.update()
-
-pygame.quit()
+# #sprite group
+# all_sprites = pygame.sprite.Group()
+# text = Text()
+# dz = Dingzhen()
+# all_sprites.add(text)
+# all_sprites.add(dz)
+#
+# # Add the input box to the sprite group
+# input_box = Input()
+# all_sprites.add(input_box)
+#
+# running = True
+# #loop
+# while running:
+#     clock.tick(FPS)
+#     #input
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             running = False
+#         elif event.type == pygame.KEYDOWN:
+#             if event.key == pygame.K_RETURN:
+#                 text.result = input_box.text  # 复制输入内容到 Text 实例
+#                 input_box.clear_text()  # 清空输入框
+#             elif input_box.active:
+#                 if event.key == pygame.K_BACKSPACE:
+#                     input_box.backspace()
+#                 else:
+#                     input_box.add_character(event.unicode)
+#
+#     #update
+#     #Execute the update function for each object in this group
+#     all_sprites.update()
+#
+#     #display
+#     screen.fill(BLACK)
+#     screen.blit(background_img, (0,0))
+#     all_sprites.draw(screen)
+#     #refresh
+#     pygame.display.update()
+#
+# pygame.quit()

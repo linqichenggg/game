@@ -19,23 +19,23 @@ pygame.display.set_caption("lqc")
 clock = pygame.time.Clock()
 
 #img
-background_img = pygame.image.load(os.path.join("img","litang.jpg")).convert()
-player_img = pygame.image.load(os.path.join("img","dingzhen.jpg")).convert()
+background_img = pygame.image.load(os.path.join("img", "litang.jpg")).convert()
+player_img = pygame.image.load(os.path.join("img", "dingzhen.jpg")).convert()
 # rock_img = pygame.image.load(os.path.join("img","c0.jpg")).convert()
 rock_imgs = []
 for i in range(3):
-    rock_imgs.append(pygame.image.load(os.path.join("img",f"c{i}.jpg")).convert())
+    rock_imgs.append(pygame.image.load(os.path.join("img", f"c{i}.jpg")).convert())
 
 #sound
 shoot_sound = [
-    pygame.mixer.Sound(os.path.join("sound","shoot0.wav")),
-    pygame.mixer.Sound(os.path.join("sound","shoot1.wav"))
+    pygame.mixer.Sound(os.path.join("sound", "shoot0.wav")),
+    pygame.mixer.Sound(os.path.join("sound", "shoot1.wav"))
 ]
 expl_sound = [
-    pygame.mixer.Sound(os.path.join("sound","hit0.wav")),
-    pygame.mixer.Sound(os.path.join("sound","hit1.wav"))
+    pygame.mixer.Sound(os.path.join("sound", "hit0.wav")),
+    pygame.mixer.Sound(os.path.join("sound", "hit1.wav"))
 ]
-pygame.mixer.music.load(os.path.join("sound","I Got Smoke.flac"))
+pygame.mixer.music.load(os.path.join("sound", "I Got Smoke.flac"))
 pygame.mixer.music.set_volume(0.4)
 
 #score display
