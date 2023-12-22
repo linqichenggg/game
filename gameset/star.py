@@ -1,4 +1,5 @@
 import sys,os
+from pypinyin import lazy_pinyin
 
 sys.path.append(os.path.split(sys.path[0])[0])
 print(os.path.split(sys.path[0])[0])
@@ -19,10 +20,15 @@ text = Text()
 dz = Dingzhen()
 all_sprites.add(text)
 all_sprites.add(dz)
+pygame.mixer.music.play(-1)
 
 # Add the input box to the sprite group
 input_box = Input()
 all_sprites.add(input_box)
+
+def convert_pinyin_to_hanzi(pinyin_text):
+    # 这里的转换非常简单，不考虑多音字或词组
+    return ''.join(lazy_pinyin(pinyin_text))
 
 running = True
 #loop
@@ -35,6 +41,7 @@ while running:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN:
                 user_Question = input_box.text
+                converted_text = convert_pinyin_to_hanzi(user_Question)
                 print(user_Question)
                 multiple_Requests.question(memory=memory, quest=user_Question)
                 if user_Question == '退出':
