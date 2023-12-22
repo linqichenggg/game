@@ -12,7 +12,6 @@ from persuading import *
 # 模型初始化
 memory = multiple_Requests.init_memory()
 my_model = LLM_api.unitModel()
-my_model_name = 'ERNIE-Bot'
 
 # 页面初始化
 all_sprites = pygame.sprite.Group()
