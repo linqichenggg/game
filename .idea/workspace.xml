@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a46dcad-5842-4acc-bb6a-539627060d6c" name="更改" comment="12.22 new">
-      <change beforePath="$PROJECT_DIR$/.idea/game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/game.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/.idea/game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/shelf/_2023_12_22__09_34____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/.idea/shelf/_2023_12_22__09_34____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/shelf/在进行更新之前于_2023_12_22,_09_34_取消提交了更改_[更改]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/.idea/shelf/在进行更新之前于_2023_12_22,_09_34_取消提交了更改_[更改]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/img/c0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/img/c0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/img/c1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/img/c1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/img/c2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/img/c2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/img/dingzhen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/img/dingzhen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/img/dzsmoke.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/img/dzsmoke.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/img/litang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/img/litang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/img/liubo.png" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/img/liubo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/persuading.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/persuading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/sound/I Got Smoke.flac" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/sound/I Got Smoke.flac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/sound/hit0.wav" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/sound/hit0.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/sound/hit1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/sound/hit1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/sound/shoot0.wav" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/sound/shoot0.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/sound/shoot1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/sound/shoot1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/star.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/star.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,12 +155,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gameset" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/star.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gameset/star.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,6 +201,7 @@
       <workItem from="1703074985654" duration="4728000" />
       <workItem from="1703211807021" duration="56000" />
       <workItem from="1703211914317" duration="188000" />
+      <workItem from="1703213624216" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -364,8 +386,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/game$game.coverage" NAME="game 覆盖结果" MODIFIED="1702533483114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/game_py$star.coverage" NAME="star 覆盖结果" MODIFIED="1703212057345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game" />
-    <SUITE FILE_PATH="coverage/game_py$game.coverage" NAME="game 覆盖结果" MODIFIED="1703076947153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_py$star.coverage" NAME="star 覆盖结果" MODIFIED="1703213677201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameset" />
+    <SUITE FILE_PATH="coverage/game_py$game.coverage" NAME="game 覆盖结果" MODIFIED="1703213671260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/game_py$run_game.coverage" NAME="run_game 覆盖结果" MODIFIED="1702963989371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/NinjaOnTheWall_0.7_simono/source" />
     <SUITE FILE_PATH="coverage/game_py$voice_express.coverage" NAME="voice_express 覆盖结果" MODIFIED="1702540435686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../IT_Course-NJAU" />
     <SUITE FILE_PATH="coverage/game_py$main.coverage" NAME="main 覆盖结果" MODIFIED="1702551509327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../IT_Course-NJAU/LLM_dialogue" />
