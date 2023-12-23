@@ -59,6 +59,7 @@ while running:
                     multiple_Requests.answer(memory=memory, ans=llm_Answer)
                     text.result = llm_Answer
                     print(llm_Answer)
+                    speak_sound.play()
                     judge = intention_Recognition.recognition(llm_Answer)
 
                     if intention_Recognition.contains_word_no('文本：' + judge):

@@ -46,6 +46,7 @@ BLACK = (0,0,0)
 
 #initialize
 pygame.init()
+pygame.mixer.init()
 screen = pygame.display.set_mode((1000,800))
 #title
 pygame.display.set_caption("Persuading")
@@ -58,6 +59,7 @@ background_img = pygame.image.load(os.path.join("img", "litang.jpg")).convert()
 actor_img = pygame.image.load(os.path.join("img", "dzsmoke.jpg")).convert()
 
 #sound
+speak_sound = pygame.mixer.Sound(os.path.join("sound", "shoot0.wav"))
 pygame.mixer.music.load(os.path.join("sound","I Got Smoke.flac"))
 pygame.mixer.music.set_volume(0.05)
 

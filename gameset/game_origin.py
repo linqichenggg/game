@@ -14,6 +14,7 @@ BLACK = (0,0,0)
 
 #initial
 pygame.init()
+pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption("lqc")
 clock = pygame.time.Clock()
