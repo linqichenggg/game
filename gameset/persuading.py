@@ -1,3 +1,5 @@
+import shutil
+
 import pygame
 import os
 from Pinyin2Hanzi import DefaultDagParams
@@ -59,7 +61,19 @@ background_img = pygame.image.load(os.path.join("img", "litang.jpg")).convert()
 actor_img = pygame.image.load(os.path.join("img", "dzsmoke.jpg")).convert()
 
 #sound
-speak_sound = pygame.mixer.Sound(os.path.join("sound", "audio.wav"))
+# speak_sound = pygame.mixer.Sound(os.path.join("sound", "audio.wav"))
+def play_latest_sound():
+    original_path = os.path.join("sound", "audio.wav")
+    temp_path = os.path.join("sound", "temp_audio.wav")
+
+    # 复制文件到新的路径
+    shutil.copyfile(original_path, temp_path)
+
+    # 加载最新的音频文件
+    speak_sound = pygame.mixer.Sound(temp_path)
+
+    # 播放音频
+    speak_sound.play()
 pygame.mixer.music.load(os.path.join("sound","I Got Smoke.flac"))
 pygame.mixer.music.set_volume(0.05)
 
