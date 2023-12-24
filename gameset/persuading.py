@@ -57,6 +57,8 @@ clock = pygame.time.Clock()
 #img
 #background
 background_img = pygame.image.load(os.path.join("img", "litang.jpg")).convert()
+#homepage
+homepage_img = pygame.image.load(os.path.join("img", "wy.jpg")).convert()
 #dingzhen
 actor_img = pygame.image.load(os.path.join("img", "dzsmoke.jpg")).convert()
 
@@ -86,8 +88,11 @@ def draw_text(surf, text, size, x, y):
     surf.blit(text_surface, text_rect)
 font_name = os.path.join("font.ttf")
 def draw_init():
+    homepage_img2 = pygame.transform.scale(homepage_img, (1000, 800))
+    screen.blit(homepage_img2, (0,0))
     draw_text(screen, '劝说丁真', 128, WIDTH/2, HEIGHT/4)
     draw_text(screen, '使用文字劝说丁真从抽电子烟转换为传统香烟', 44, WIDTH/2, HEIGHT/2)
+    draw_text(screen, '由于网络问题，音频输出部分可能会报错，遇此情况请重启', 25, WIDTH/2, HEIGHT*3/4-30)
     draw_text(screen, '若输入法错误切换输入法即可（任何输入法状态下都能进行打字）', 25, WIDTH/2, HEIGHT*3/4)
     draw_text(screen, '按任意键开始', 25, WIDTH/2, HEIGHT * 3.5/4)
     pygame.display.update()
