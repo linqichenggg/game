@@ -59,7 +59,7 @@ background_img = pygame.image.load(os.path.join("img", "litang.jpg")).convert()
 actor_img = pygame.image.load(os.path.join("img", "dzsmoke.jpg")).convert()
 
 #sound
-speak_sound = pygame.mixer.Sound(os.path.join("sound", "shoot0.wav"))
+speak_sound = pygame.mixer.Sound(os.path.join("sound", "audio.wav"))
 pygame.mixer.music.load(os.path.join("sound","I Got Smoke.flac"))
 pygame.mixer.music.set_volume(0.05)
 
