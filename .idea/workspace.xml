@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a46dcad-5842-4acc-bb6a-539627060d6c" name="更改" comment="response sound">
-      <change afterPath="$PROJECT_DIR$/gameset/img/wy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/game.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2a46dcad-5842-4acc-bb6a-539627060d6c" name="更改" comment="1.增加封面&#10;2.增加loop中断的if语句，保证在关闭窗口后游戏循环也关闭&#10;3.测试语音功能，依然存在问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gameset/persuading.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameset/persuading.py" afterDir="false" />
     </list>
@@ -102,7 +99,7 @@
       <recent name="$PROJECT_DIR$/../IT" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.game">
     <configuration name="game" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -215,7 +212,10 @@
       <workItem from="1703244705368" duration="4786000" />
       <workItem from="1703249571523" duration="59000" />
       <workItem from="1703293494599" duration="530000" />
-      <workItem from="1703426176683" duration="1494000" />
+      <workItem from="1703426176683" duration="1831000" />
+      <workItem from="1703486848008" duration="255000" />
+      <workItem from="1703494602541" duration="41000" />
+      <workItem from="1703495258599" duration="146000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -401,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703249625673</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="1.增加封面&#10;2.增加loop中断的if语句，保证在关闭窗口后游戏循环也关闭&#10;3.测试语音功能，依然存在问题">
+      <option name="closed" value="true" />
+      <created>1703427930226</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1703427930226</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,11 +449,12 @@
     <MESSAGE value="chinese font" />
     <MESSAGE value="中文输入，我累了" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="1.增加封面&#10;2.增加loop中断的if语句，保证在关闭窗口后游戏循环也关闭&#10;3.测试语音功能，依然存在问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加封面&#10;2.增加loop中断的if语句，保证在关闭窗口后游戏循环也关闭&#10;3.测试语音功能，依然存在问题" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/game$game.coverage" NAME="game 覆盖结果" MODIFIED="1702533483114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/game_py$star.coverage" NAME="star 覆盖结果" MODIFIED="1703427519764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameset" />
+    <SUITE FILE_PATH="coverage/game_py$star.coverage" NAME="star 覆盖结果" MODIFIED="1703494606644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameset" />
     <SUITE FILE_PATH="coverage/game_py$game.coverage" NAME="game 覆盖结果" MODIFIED="1703426626079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/game_py$run_game.coverage" NAME="run_game 覆盖结果" MODIFIED="1702963989371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/NinjaOnTheWall_0.7_simono/source" />
     <SUITE FILE_PATH="coverage/game_py$voice_express.coverage" NAME="voice_express 覆盖结果" MODIFIED="1702540435686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../IT_Course-NJAU" />

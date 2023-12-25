@@ -220,7 +220,7 @@ class TextBox:
         self.dagparams = DefaultDagParams()
         self.state = 0  # 0初始状态 1输入拼音状态
         self.page = 1  # 第几页
-        self.limit = 5  # 显示几个汉字
+        self.limit = 8  # 显示几个汉字
         self.pinyin = ''
         self.word_list = []  # 候选词列表
         self.word_list_surf = None  # 候选词surface
