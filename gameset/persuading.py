@@ -27,7 +27,7 @@ def game_Init():
     pygame.init()
     screen = pygame.display.set_mode((1000, 800))
     # title
-    pygame.display.set_caption("Persuading")
+    pygame.display.set_caption("Rickfalls")
     clock = pygame.time.Clock()
 
     # img
@@ -51,7 +51,7 @@ pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((1000,800))
 #title
-pygame.display.set_caption("Persuading")
+pygame.display.set_caption("Rickfalls")
 clock = pygame.time.Clock()
 
 #img
